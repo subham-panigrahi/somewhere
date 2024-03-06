@@ -1,10 +1,18 @@
-// function sayHi(names){
-//     console.log(`Hello there ${names}`);
-// }
-// module.exports = sayHi;
 
+// const {readFile , writeFile} = require('fs');
+// console.log('start');
+// readFile('./content/first.txt','utf8',(err,result)=>{
+//     if (err) throw err;
+//     const first = result;
+//     readFile('./content/second.txt','utf8',(err,result)=>{
+//         if (err) throw err;
+//         const second = result;
+//         console.log(second);
+//         writeFile('./content/async.txt',`here is the result : ${first} and ${second}`,(err,result)=>{
+//             if (err) throw err;
+//             console.log('done with this task');
+//         })
+//     })
+// })
 
-// function raNum(){
-//     return Math.floor(Math.random()*3);
-// }
-// module.exports = raNum;
+// console.log('starting with the next one');
